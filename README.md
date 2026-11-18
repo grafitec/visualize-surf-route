@@ -1,3 +1,4 @@
+
 # Visualizing surf route 
 Visualizing surf route is a personal data management project and a Python-based tool for transforming GPS activity data into animated route visualizations and video sequences. The project takes GPS data from TCX files, processes the activity information, and generates frame-by-frame animations using Matplotlib. The resulting frames can be exported as PNG images and assembled into a video using FFmpeg or further edited in a video editor.
 The project is designed as a practical learning platform for learning python, plotly, data analysis, software development and n8n for automation. Visualizing my surf rides and emails me a videos and pictures ready to upload on social media. 
@@ -15,6 +16,8 @@ The project is designed as a practical learning platform for learning python, pl
 - Sends a email with the files
 
 ## Example Output
+<img width="720" height="1280" alt="rutt_cityLines (2)" src="https://github.com/user-attachments/assets/e7e08473-1712-4ed4-b4f6-56ab2a3b741c" />
+<img width="720" height="1280" alt="rutt_map (1)" src="https://github.com/user-attachments/assets/00c3f56c-e80e-420f-bddf-c878c532db03" />
 
 
 ## Technologies
