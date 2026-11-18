@@ -13,3 +13,50 @@ The project is designed as a practical learning platform for learning python, pl
 - Video-ready output – Exports individual frames that can be assembled into videos using FFmpeg or a video editor.
 - Custom graphical overlays – Supports transparent PNG graphics and additional visual elements.
 - Sends a email with the files
+
+## Example Output
+
+
+## Technologies
+- Python
+- Pandas – Data processing
+- NumPy – Numerical calculations
+- Matplotlib – Visualization and animation
+- PyProj – Geographic coordinate transformations
+- OSMnx – Custom map generation
+- Pillow – Image processing
+- FFmpeg – Video encoding
+- Gmail - Read and send mails
+- n8n - automation
+
+## How It Works
+The project follows a processing pipeline:
+
+- Track your surfride
+- Send the TCX file to gmail with settings
+- n8n automation trigger an action to run the code with flask server
+- Import GPS data – Load activity data from a TCX file.
+- Extract information – Parse timestamps, latitude, longitude and available activity metrics.
+- Process coordinates – Transform GPS coordinates from WGS84 (EPSG:4326) to Web Mercator (EPSG:3857).
+- Calculate activity metrics – Calculate route distance, elapsed time and speed.
+- Generate visualization – Render the route, markers, activity information and optional map background.
+- Export frames – Save each animation frame as an individual PNG image.
+- Create video – Combine the exported frames into a video using FFmpeg or an external video editor.
+- Email the outputfiles ready to post on social media
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/grafitec/visualize-surf-route.git
+cd visualize-surf-route
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Make sure FFmpeg is installed and available in your system PATH if you want to generate videos directly.
+
+## Project Goals
+This project was developed to explore how GPS activity data can be transformed into visually engaging animations.
+It combines data processing, geographic coordinate transformations, mathematical calculations and graphical rendering into a reusable Python workflow.
+I wanted to learn and explore more python challenges and make a useful tool to my day to day surfing rides.
