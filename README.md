@@ -16,8 +16,8 @@ The project is designed as a practical learning platform for learning python, pl
 - Sends a email with the files
 
 ## Example Output
-<img width="720" height="1280" alt="rutt_cityLines (2)" src="https://github.com/user-attachments/assets/e7e08473-1712-4ed4-b4f6-56ab2a3b741c" />
-<img width="720" height="1280" alt="rutt_map (1)" src="https://github.com/user-attachments/assets/00c3f56c-e80e-420f-bddf-c878c532db03" />
+<img width="360" height="640" alt="rutt_cityLines (2)" src="https://github.com/user-attachments/assets/e7e08473-1712-4ed4-b4f6-56ab2a3b741c" />
+<img width="360" height="640" alt="rutt_map (1)" src="https://github.com/user-attachments/assets/00c3f56c-e80e-420f-bddf-c878c532db03" />
 
 
 ## Technologies
