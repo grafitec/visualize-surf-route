@@ -1,0 +1,1 @@
+Visualizing my surf route and mail me back a video and picture ready to upload on social media. I Track my surf with Apple Watch and export a TCX file which i email to myself, the code open it up and process it and out comes different versions of videos and pictures which it email me and i can upload them on social media 
